@@ -1,0 +1,48 @@
+object Form1: TForm1
+  Left = 352
+  Height = 599
+  Top = 33
+  Width = 568
+  Caption = 'Vierkante spiraal'
+  ClientHeight = 599
+  ClientWidth = 568
+  DesignTimePPI = 120
+  Position = poScreenCenter
+  object PaintBox1: TPaintBox
+    Left = 32
+    Height = 500
+    Top = 32
+    Width = 500
+    Anchors = [akTop, akLeft, akRight, akBottom]
+    ParentColor = False
+  end
+  object Button1: TButton
+    Left = 32
+    Height = 28
+    Top = 552
+    Width = 128
+    Anchors = [akLeft, akBottom]
+    Caption = 'Teken spiraal'
+    OnClick = Button1Click
+    TabOrder = 0
+  end
+  object SpinEdit1: TSpinEdit
+    Left = 304
+    Height = 28
+    Top = 552
+    Width = 63
+    Increment = 2
+    MaxValue = 45
+    MinValue = 3
+    TabOrder = 1
+    Value = 3
+  end
+  object Label1: TLabel
+    Left = 184
+    Height = 20
+    Top = 555
+    Width = 103
+    Caption = 'Aantal stappen:'
+    ParentColor = False
+  end
+end
