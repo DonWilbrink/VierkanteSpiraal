@@ -18,6 +18,7 @@ type
     PaintBox1: TPaintBox;
     SpinEdit1: TSpinEdit;
     procedure Button1Click(Sender: TObject);
+    procedure FormResize(Sender: TObject);
   private
 
   public
@@ -37,8 +38,8 @@ procedure TForm1.Button1Click(Sender: TObject);
 var
   X,Y,i: Integer;
 begin
-  X := Round(PaintBox1.Width/2);
-  Y := Round(PaintBox1.Height/2);
+  X := PaintBox1.Width div 2;
+  Y := PaintBox1.Height div 2;
   with PaintBox1.Canvas do
   begin
     PaintBox1.Canvas.Clear;
@@ -58,6 +59,15 @@ begin
       Inc(i);
     end;
   end;
+end;
+
+procedure TForm1.FormResize(Sender: TObject);
+var
+  Y: Integer;
+begin
+  Y := PaintBox1.Height div 2;
+  SpinEdit1.MaxValue := Y div 5 - 5;
+  Button1Click(Self);
 end;
 
 end.
