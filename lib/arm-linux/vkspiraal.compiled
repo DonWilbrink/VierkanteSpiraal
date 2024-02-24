@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Compiler Value="C:\stable\fpc\bin\i386-win32\fpc.exe" Date="1482003307"/>
+  <Params Value=" -Tlinux -Parm -MObjFPC -Scghi -O1 -gw3 -gl -l -vewnhibq -FiE:\Delphi-projecten\VierkanteSpiraal\lib\arm-linux -FuC:\stable\lazarus\lcl\units\arm-linux\gtk2 -FuC:\stable\lazarus\lcl\units\arm-linux -FuC:\stable\lazarus\components\freetype\lib\arm-linux -FuC:\stable\lazarus\components\lazutils\lib\arm-linux -FuC:\stable\lazarus\packager\units\arm-linux -FuE:\Delphi-projecten\VierkanteSpiraal\ -FUE:\Delphi-projecten\VierkanteSpiraal\lib\arm-linux\ -FEE:\Delphi-projecten\VierkanteSpiraal\bin\arm-linux\ -oE:\Delphi-projecten\VierkanteSpiraal\bin\arm-linux\vkspiraal_rpi32 -dLCL -dLCLgtk2 vkspiraal.lpr"/>
+</CONFIG>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Compiler Value="C:\stable\fpc\bin\i386-win32\fpc.exe" Date="1482003307"/>
+  <Params Value=" -Tlinux -Paarch64 -MObjFPC -Scghi -O1 -gw3 -gl -l -vewnhibq -FiE:\Delphi-projecten\VierkanteSpiraal\lib\aarch64-linux -FuC:\stable\lazarus\lcl\units\aarch64-linux\gtk2 -FuC:\stable\lazarus\lcl\units\aarch64-linux -FuC:\stable\lazarus\components\freetype\lib\aarch64-linux -FuC:\stable\lazarus\components\lazutils\lib\aarch64-linux -FuC:\stable\lazarus\packager\units\aarch64-linux -FuE:\Delphi-projecten\VierkanteSpiraal\ -FUE:\Delphi-projecten\VierkanteSpiraal\lib\aarch64-linux\ -FEE:\Delphi-projecten\VierkanteSpiraal\bin\aarch64-linux\ -oE:\Delphi-projecten\VierkanteSpiraal\bin\aarch64-linux\vkspiraal_rpi64 -dLCL -dLCLgtk2 vkspiraal.lpr"/>
+</CONFIG>
